@@ -1,0 +1,101 @@
+.choice {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.log-in {
+
+position: absolute;
+width: 960px;
+height: 1080px;
+left: 0px;
+top: 0px;
+}
+
+
+.box_login {
+
+position: absolute;
+width: 960px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: #77DB54;
+}
+
+.txt_login {
+
+position: absolute;
+width: 396px;
+height: 124px;
+left: 282px;
+top: 478px;
+
+font-family: 'Oregano';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 124px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+
+.guest {
+
+position: absolute;
+width: 960px;
+height: 1080px;
+left: 960px;
+top: 0px;
+
+}
+
+.box_guest {
+
+position: absolute;
+width: 960px;
+height: 1080px;
+left: 960px;
+top: 0px;
+
+background: #80D6E1;
+}
+
+.txt_guest {
+
+position: absolute;
+width: 678px;
+height: 124px;
+left: 1101px;
+top: 478px;
+
+font-family: 'Oregano';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 124px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1779px;
+top: 35px;
+
+background: url(image.png);
+}

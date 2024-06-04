@@ -1,0 +1,164 @@
+.b_list_pracownicy {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.txt_list_pracownicy {
+
+position: absolute;
+width: 803px;
+height: 77px;
+left: 56px;
+top: 68px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.database {
+
+position: absolute;
+width: 1807px;
+height: 662px;
+left: 56px;
+top: 264px;
+
+background: url(image);
+}
+
+.search {
+
+position: absolute;
+width: 573px;
+height: 53px;
+left: 56px;
+top: 179px;
+
+background: url(image.png);
+}
+
+.button_map_pracownicy {
+
+position: absolute;
+width: 133px;
+height: 120.91px;
+left: 1621px;
+top: 70px;
+}
+
+
+.box_map_p {
+
+position: absolute;
+width: 133px;
+height: 120.91px;
+left: 1621px;
+top: 70px;
+
+background: #8AB6F6;
+}
+
+.icon_map_p {
+
+position: absolute;
+width: 102.6px;
+height: 88.99px;
+left: 1636.2px;
+top: 86.44px;
+
+background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png);
+}
+
+.button_map_show {
+
+position: absolute;
+width: 563px;
+height: 77px;
+left: 678px;
+top: 974px;
+}
+
+
+.box_map_show {
+
+position: absolute;
+width: 563px;
+height: 77px;
+left: 678px;
+top: 974px;
+
+background: #8AB6F6;
+}
+
+.txt_map_show {
+
+position: absolute;
+width: 538px;
+height: 47px;
+left: 691px;
+top: 989px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1791px;
+top: 22px;
+
+background: url(image.png);
+}
+
+.button_menu {
+
+position: absolute;
+width: 184.17px;
+height: 182.33px;
+left: 1437px;
+top: 40px;
+}
+
+
+.box_menu {
+
+position: absolute;
+width: 131.05px;
+height: 121px;
+left: 1464.15px;
+top: 70.39px;
+
+background: #8AB6F6;
+}
+
+.icon_menu {
+
+position: absolute;
+width: 184.17px;
+height: 182.33px;
+left: 1437px;
+top: 40px;
+
+background: url(image.png);
+}

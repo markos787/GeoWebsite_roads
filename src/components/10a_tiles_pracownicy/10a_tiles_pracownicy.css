@@ -1,0 +1,220 @@
+.tiles_pracownicy {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.txt_tiles_pracownicy {
+
+position: absolute;
+width: 803px;
+height: 77px;
+left: 56px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.search {
+
+position: absolute;
+width: 573px;
+height: 53px;
+left: 56px;
+top: 227px;
+
+background: url(image.png);
+}
+
+.button_map_show {
+
+position: absolute;
+width: 563px;
+height: 77px;
+left: 690px;
+top: 969px;
+}
+
+
+.box_map_show {
+
+position: absolute;
+width: 563px;
+height: 77px;
+left: 690px;
+top: 969px;
+
+background: #8AB6F6;
+}
+
+.txt_map_show {
+
+position: absolute;
+width: 538px;
+height: 47px;
+left: 703px;
+top: 984px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.button_map_pracownicy {
+
+position: absolute;
+width: 120px;
+height: 121px;
+left: 1455px;
+top: 71px;
+}
+
+
+.box_map_p {
+
+position: absolute;
+width: 120px;
+height: 121px;
+left: 1455px;
+top: 71px;
+
+background: #8AB6F6;
+}
+
+.icon_map_p {
+
+position: absolute;
+width: 92.57px;
+height: 89.06px;
+left: 1468.71px;
+top: 87.46px;
+
+background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png);
+}
+
+.button_list_pracownicy {
+
+position: absolute;
+width: 121px;
+height: 120px;
+left: 1633px;
+top: 72px;
+}
+
+
+.box_list_p {
+
+position: absolute;
+width: 121px;
+height: 120px;
+left: 1633px;
+top: 72px;
+
+background: #8AB6F6;
+}
+
+.icon_list_p {
+
+position: absolute;
+width: 87.42px;
+height: 84px;
+left: 1649.79px;
+top: 90.24px;
+
+background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+}
+
+.tile1 {
+
+position: absolute;
+width: 411px;
+height: 271px;
+left: 103px;
+top: 361px;
+}
+
+
+.img1 {
+
+position: absolute;
+width: 411px;
+height: 271px;
+left: 103px;
+top: 361px;
+
+background: url(image);
+}
+
+.mark1 {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 113px;
+top: 373px;
+
+background: #D9D9D9;
+border: 3px solid #000000;
+}
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1800px;
+top: 31px;
+
+background: url(image.png);
+}
+
+.button_menu {
+
+position: absolute;
+width: 184.17px;
+height: 182.33px;
+left: 1237px;
+top: 45px;
+}
+
+
+.box_menu {
+
+position: absolute;
+width: 131.05px;
+height: 121px;
+left: 1264.15px;
+top: 75.39px;
+
+background: #8AB6F6;
+}
+
+.icon_menu {
+
+position: absolute;
+width: 184.17px;
+height: 182.33px;
+left: 1237px;
+top: 45px;
+
+background: url(image.png);
+}

@@ -1,0 +1,193 @@
+.login {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.txt_title {
+
+position: absolute;
+width: 1251px;
+height: 77px;
+left: 336px;
+top: 141px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+}
+
+
+.input_login {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 382px;
+height: 60px;
+left: 881px;
+top: 387px;
+
+border: 3px solid #000000;
+}
+
+.input_password {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 382px;
+height: 60px;
+left: 881px;
+top: 480px;
+
+border: 3px solid #000000;
+}
+
+.txt_login {
+
+position: absolute;
+width: 299px;
+height: 47px;
+left: 582px;
+top: 393px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.txt_password {
+
+position: absolute;
+width: 299px;
+height: 47px;
+left: 582px;
+top: 486px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.visible {
+
+position: absolute;
+width: 85px;
+height: 44px;
+left: 1173px;
+top: 488px;
+
+background: url(image);
+}
+
+.button_login {
+
+position: absolute;
+width: 397px;
+height: 93px;
+left: 762px;
+top: 653px;
+}
+
+
+.box_login {
+
+position: absolute;
+width: 397px;
+height: 93px;
+left: 762px;
+top: 653px;
+
+background: #88E38B;
+}
+
+.txt_login {
+
+position: absolute;
+width: 268px;
+height: 58px;
+left: 827px;
+top: 671px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+
+.button_back {
+
+position: absolute;
+width: 230px;
+height: 77px;
+left: 846px;
+top: 816px;
+}
+
+
+.box_back {
+
+position: absolute;
+width: 230px;
+height: 77px;
+left: 846px;
+top: 816px;
+
+background: #8AB6F6;
+}
+
+.txt_back {
+
+position: absolute;
+width: 217px;
+height: 47px;
+left: 853px;
+top: 831px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1783px;
+top: 41px;
+
+background: url(image.png);
+}

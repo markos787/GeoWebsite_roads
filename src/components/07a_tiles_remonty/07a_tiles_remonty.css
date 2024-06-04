@@ -1,0 +1,220 @@
+.tiles_remonty {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.txt_tiles_remonty {
+
+position: absolute;
+width: 708px;
+height: 77px;
+left: 56px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.search {
+
+position: absolute;
+width: 573px;
+height: 53px;
+left: 56px;
+top: 179px;
+
+background: url(image.png);
+}
+
+.button_map_show {
+
+position: absolute;
+width: 563px;
+height: 77px;
+left: 679px;
+top: 988px;
+}
+
+
+.box_map_show {
+
+position: absolute;
+width: 563px;
+height: 77px;
+left: 679px;
+top: 988px;
+
+background: #8AB6F6;
+}
+
+.txt_map_show {
+
+position: absolute;
+width: 538px;
+height: 47px;
+left: 692px;
+top: 1003px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.tile1 {
+
+position: absolute;
+width: 302px;
+height: 317px;
+left: 287px;
+top: 270px;
+}
+
+
+.img1 {
+
+position: absolute;
+width: 302px;
+height: 317px;
+left: 287px;
+top: 270px;
+
+background: url(image);
+}
+
+.mark1 {
+
+box-sizing: border-box;
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 295px;
+top: 277px;
+
+background: #D9D9D9;
+border: 3px solid #000000;
+}
+
+.button_map_remonty {
+
+position: absolute;
+width: 120px;
+height: 121px;
+left: 1497px;
+top: 58px;
+}
+
+
+.box_map_r {
+
+position: absolute;
+width: 120px;
+height: 121px;
+left: 1497px;
+top: 58px;
+
+background: #8AB6F6;
+}
+
+.icon_map_r {
+
+position: absolute;
+width: 92.57px;
+height: 89.06px;
+left: 1510.71px;
+top: 74.46px;
+
+background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png);
+}
+
+.button_list_remonty {
+
+position: absolute;
+width: 121px;
+height: 120px;
+left: 1675px;
+top: 59px;
+}
+
+
+.box_list_r {
+
+position: absolute;
+width: 121px;
+height: 120px;
+left: 1675px;
+top: 59px;
+
+background: #8AB6F6;
+}
+
+.icon_list_r {
+
+position: absolute;
+width: 87.42px;
+height: 84px;
+left: 1691.79px;
+top: 77.24px;
+
+background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+}
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1806px;
+top: 9px;
+
+background: url(image.png);
+}
+
+.button_menu {
+
+position: absolute;
+width: 184.17px;
+height: 182.33px;
+left: 1271px;
+top: 28px;
+}
+
+
+.box_menu {
+
+position: absolute;
+width: 131.05px;
+height: 121px;
+left: 1298.15px;
+top: 58.39px;
+
+background: #8AB6F6;
+}
+
+.icon_menu {
+
+position: absolute;
+width: 184.17px;
+height: 182.33px;
+left: 1271px;
+top: 28px;
+
+background: url(image.png);
+}

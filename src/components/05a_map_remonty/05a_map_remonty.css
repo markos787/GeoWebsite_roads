@@ -1,0 +1,224 @@
+.a_map_remonty {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.map {
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: url(image);
+}
+
+.navigation_button {
+
+position: absolute;
+width: 43px;
+height: 117px;
+left: 24px;
+top: 28px;
+
+background: url(image.png);
+}
+
+.button_list_remonty {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 33px;
+top: 957px;
+}
+
+
+.box_list_r {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 33px;
+top: 957px;
+
+background: #8AB6F6;
+}
+
+.icon_list_r {
+
+position: absolute;
+width: 80.19px;
+height: 72.47px;
+left: 48.4px;
+top: 972.74px;
+
+background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+}
+
+.layers_management {
+
+position: absolute;
+width: 100px;
+height: 85px;
+left: 1794px;
+top: 36px;
+
+background: url(image.png);
+}
+
+.search {
+
+position: absolute;
+width: 296px;
+height: 53px;
+left: 88px;
+top: 28px;
+
+background: url(image.png);
+}
+
+.button_tiles_remonty {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 167px;
+top: 957px;
+}
+
+
+.box_tiles_r {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 167px;
+top: 957px;
+
+background: #8AB6F6;
+}
+
+.icon_tiles_r {
+
+position: absolute;
+width: 90.61px;
+height: 77.3px;
+left: 182.86px;
+top: 972.87px;
+
+background: url(image.png);
+}
+
+.actions {
+
+position: absolute;
+width: 100px;
+height: 434px;
+left: 1794px;
+top: 132px;
+}
+
+
+.box_actions {
+
+position: absolute;
+width: 100px;
+height: 434px;
+left: 1794px;
+top: 132px;
+
+background: #FFFFFF;
+}
+
+.layers {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1794px;
+top: 132px;
+
+background: url(layers.png);
+}
+
+.length {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1794px;
+top: 249px;
+
+background: url(length.png);
+}
+
+.area {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1794px;
+top: 349px;
+
+background: url(area.png);
+}
+
+.coordinates {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1794px;
+top: 466px;
+
+background: url(coordinates.png);
+}
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1804px;
+top: 923px;
+
+background: url(image.png);
+}
+
+.button_menu {
+
+position: absolute;
+width: 156px;
+height: 156px;
+left: 273px;
+top: 931px;
+}
+
+
+.box_menu {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 296px;
+top: 957px;
+
+background: #8AB6F6;
+}
+
+.icon_menu {
+
+position: absolute;
+width: 156px;
+height: 156px;
+left: 273px;
+top: 931px;
+
+background: url(image.png);
+}

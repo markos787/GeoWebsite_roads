@@ -1,0 +1,418 @@
+.a_menu {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.txt_menu {
+
+position: absolute;
+width: 177px;
+height: 77px;
+left: 871px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+}
+
+
+.txt_remonty {
+
+position: absolute;
+width: 299px;
+height: 66px;
+left: 310px;
+top: 516px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.txt_pracownicy {
+
+position: absolute;
+width: 299px;
+height: 66px;
+left: 1328px;
+top: 516px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.img_remonty {
+
+position: absolute;
+width: 405.87px;
+height: 250px;
+left: 259px;
+top: 252px;
+
+background: url(image);
+}
+
+.img_pracownicy {
+
+position: absolute;
+width: 445.18px;
+height: 250px;
+left: 1255px;
+top: 252px;
+
+background: url(image);
+}
+
+.divider {
+
+position: absolute;
+width: 721px;
+height: 0px;
+left: 960px;
+top: 179px;
+
+background: #D9D9D9;
+border: 5px solid #000000;
+transform: rotate(90deg);
+}
+
+.button_map_remonty {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 138px;
+top: 634px;
+}
+
+
+.box_map_r {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 138px;
+top: 634px;
+
+background: #8AB6F6;
+}
+
+.icon_map_r {
+
+position: absolute;
+width: 113.4px;
+height: 110.4px;
+left: 154.8px;
+top: 654.4px;
+
+background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png);
+}
+
+.button_list_remonty {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 389px;
+top: 634px;
+}
+
+
+.box_list_r {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 389px;
+top: 634px;
+
+background: #8AB6F6;
+}
+
+.icon_list_r {
+
+position: absolute;
+width: 106.2px;
+height: 105px;
+left: 409.4px;
+top: 656.8px;
+
+background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+}
+
+.button_tiles_remonty {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 640px;
+top: 634px;
+}
+
+
+.box_tiles_r {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 640px;
+top: 634px;
+
+background: #8AB6F6;
+}
+
+.icon_tiles_r {
+
+position: absolute;
+width: 120px;
+height: 112px;
+left: 661px;
+top: 657px;
+
+background: url(image.png);
+}
+
+.button_tiles_pracownicy {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 1655px;
+top: 634px;
+}
+
+
+.box_tiles_p {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 1655px;
+top: 634px;
+
+background: #8AB6F6;
+}
+
+.icon_tiles_p {
+
+position: absolute;
+width: 120px;
+height: 112px;
+left: 1676px;
+top: 657px;
+
+background: url(image.png);
+}
+
+.button_map_pracownicy {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 1153px;
+top: 634px;
+}
+
+
+.box_map_p {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 1153px;
+top: 634px;
+
+background: #8AB6F6;
+}
+
+.icon_map_p {
+
+position: absolute;
+width: 113.4px;
+height: 110.4px;
+left: 1169.8px;
+top: 654.4px;
+
+background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png);
+}
+
+.button_list_pracownicy {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 1404px;
+top: 634px;
+}
+
+
+.box_list_p {
+
+position: absolute;
+width: 147px;
+height: 150px;
+left: 1404px;
+top: 634px;
+
+background: #8AB6F6;
+}
+
+.icon_list_p {
+
+position: absolute;
+width: 106.2px;
+height: 105px;
+left: 1424.4px;
+top: 656.8px;
+
+background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+}
+
+.txt_map_remonty {
+
+position: absolute;
+width: 95px;
+height: 44px;
+left: 164px;
+top: 814px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+
+.txt_list_remonty {
+
+position: absolute;
+width: 218px;
+height: 88px;
+left: 354px;
+top: 814px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.txt_tiles_remonty {
+
+position: absolute;
+width: 218px;
+height: 88px;
+left: 612px;
+top: 814px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.txt_tiles_pracownicy {
+
+position: absolute;
+width: 218px;
+height: 88px;
+left: 1627px;
+top: 814px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.txt_map_pracownicy {
+
+position: absolute;
+width: 95px;
+height: 44px;
+left: 1179px;
+top: 814px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+
+.txt_list_pracownicy {
+
+position: absolute;
+width: 218px;
+height: 88px;
+left: 1368px;
+top: 814px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1795px;
+top: 18px;
+
+background: url(image.png);
+}

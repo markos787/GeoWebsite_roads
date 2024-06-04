@@ -1,0 +1,85 @@
+.about {
+
+position: relative;
+width: 1920px;
+height: 4096px;
+
+background: #FFFFFF;
+}
+
+.txt_about {
+
+position: absolute;
+width: 413px;
+height: 76px;
+left: 67px;
+top: 128px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.button_back {
+
+position: absolute;
+width: 353.26px;
+height: 90px;
+left: 1496.74px;
+top: 937px;
+}
+
+
+.box_back {
+
+position: absolute;
+width: 353.26px;
+height: 90px;
+left: 1496.74px;
+top: 937px;
+
+background: #8AB6F6;
+}
+
+.txt_back {
+
+position: absolute;
+width: 351.11px;
+height: 47px;
+left: 1498.89px;
+top: 955px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.txt_body {
+
+position: absolute;
+width: 1774px;
+height: 598px;
+left: 67px;
+top: 287px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}

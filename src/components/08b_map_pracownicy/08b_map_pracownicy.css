@@ -1,0 +1,116 @@
+.b_map_pracownicy {
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.map {
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: url(image);
+}
+
+.navigation_button {
+
+position: absolute;
+width: 43px;
+height: 117px;
+left: 24px;
+top: 28px;
+
+background: url(image.png);
+}
+
+.button_list_pracownicy {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 33px;
+top: 957px;
+}
+
+
+.box_list_p {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 33px;
+top: 957px;
+
+background: #8AB6F6;
+}
+
+.icon_list_p {
+
+position: absolute;
+width: 80.19px;
+height: 72.47px;
+left: 48.4px;
+top: 972.74px;
+
+background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+}
+
+.search {
+
+position: absolute;
+width: 296px;
+height: 53px;
+left: 88px;
+top: 28px;
+
+background: url(image.png);
+}
+
+.info {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1776px;
+top: 957px;
+
+background: url(image.png);
+}
+
+.button_menu {
+
+position: absolute;
+width: 156px;
+height: 156px;
+left: 158px;
+top: 931px;
+}
+
+
+.box_menu {
+
+position: absolute;
+width: 111px;
+height: 103.53px;
+left: 181px;
+top: 957px;
+
+background: #8AB6F6;
+}
+
+.icon_menu {
+
+position: absolute;
+width: 156px;
+height: 156px;
+left: 158px;
+top: 931px;
+
+background: url(image.png);
+}
