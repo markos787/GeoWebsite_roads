@@ -34,7 +34,7 @@ height: 53px;
 left: 56px;
 top: 227px;
 
-background: url(image.png);
+/* background: url(image.png); */
 }
 
 .button_map_show {
@@ -106,7 +106,7 @@ height: 89.06px;
 left: 1468.71px;
 top: 87.46px;
 
-background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png);
+/* background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png); */
 }
 
 .button_list_pracownicy {
@@ -138,10 +138,10 @@ height: 84px;
 left: 1649.79px;
 top: 90.24px;
 
-background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+/* background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview); */
 }
 
-.tile1 {
+.tile10 {
 
 position: absolute;
 width: 411px;
@@ -151,7 +151,7 @@ top: 361px;
 }
 
 
-.img1 {
+.img10 {
 
 position: absolute;
 width: 411px;
@@ -159,10 +159,10 @@ height: 271px;
 left: 103px;
 top: 361px;
 
-background: url(image);
+/* background: url(image); */
 }
 
-.mark1 {
+.mark10 {
 
 box-sizing: border-box;
 
@@ -184,7 +184,7 @@ height: 100px;
 left: 1800px;
 top: 31px;
 
-background: url(image.png);
+/* background: url(image.png); */
 }
 
 .button_menu {
@@ -216,5 +216,5 @@ height: 182.33px;
 left: 1237px;
 top: 45px;
 
-background: url(image.png);
+/* background: url(image.png); */
 }

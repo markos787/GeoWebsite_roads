@@ -1,101 +1,80 @@
 .choice {
-
-position: relative;
-width: 1920px;
-height: 1080px;
-
-background: #FFFFFF;
+  position: absolute;
+  width: 100vw; /* Dostosowane do szerokości okna przeglądarki */
+  height: 100vh; /* Dostosowane do wysokości okna przeglądarki */
+  background: #ffffff;
+  transform: translate(-75%, -50%);
 }
 
-.log-in {
-
-position: absolute;
-width: 960px;
-height: 1080px;
-left: 0px;
-top: 0px;
+.log-in2 {
+  position: absolute;
+  width: 50vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 100vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  left: 0;
+  top: 0;
 }
 
-
-.box_login {
-
-position: absolute;
-width: 960px;
-height: 1080px;
-left: 0px;
-top: 0px;
-
-background: #77DB54;
+.box_login2 {
+  position: absolute;
+  width: 100%; /* Zajmuje całą szerokość rodzica */
+  height: 100%; /* Zajmuje całą wysokość rodzica */
+  background: #77db54;
 }
 
-.txt_login {
-
-position: absolute;
-width: 396px;
-height: 124px;
-left: 282px;
-top: 478px;
-
-font-family: 'Oregano';
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 124px;
-/* identical to box height */
-text-align: center;
-
-color: #000000;
+.txt_login2 {
+  position: absolute;
+  width: 41.25vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: auto; /* Automatyczna wysokość */
+  left: 50%; /* Pozycjonowane na środku rodzica */
+  top: 50%; /* Pozycjonowane na środku rodzica */
+  transform: translate(10%, -50%); /* Centrowanie */
+  font-family: "Segoe Print";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
 }
 
-
-.guest {
-
-position: absolute;
-width: 960px;
-height: 1080px;
-left: 960px;
-top: 0px;
-
+.guest2 {
+  position: absolute;
+  width: 50vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 100vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  left: 50vw; /* Pozycjonowanie po prawej stronie */
+  top: 0;
 }
 
-.box_guest {
-
-position: absolute;
-width: 960px;
-height: 1080px;
-left: 960px;
-top: 0px;
-
-background: #80D6E1;
+.box_guest2 {
+  position: absolute;
+  width: 100%; /* Zajmuje całą szerokość rodzica */
+  height: 100%; /* Zajmuje całą wysokość rodzica */
+  background: #80d6e1;
 }
 
-.txt_guest {
-
-position: absolute;
-width: 678px;
-height: 124px;
-left: 1101px;
-top: 478px;
-
-font-family: 'Oregano';
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 124px;
-/* identical to box height */
-text-align: center;
-
-color: #000000;
+.txt_guest2 {
+  position: absolute;
+  width: 50vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: auto; /* Automatyczna wysokość */
+  left: 50%; /* Pozycjonowane na środku rodzica */
+  top: 50%; /* Pozycjonowane na środku rodzica */
+  transform: translate(0%, -50%); /* Centrowanie */
+  font-family: "Segoe Print";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
 }
 
-
-.info {
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1779px;
-top: 35px;
-
-background: url(image.png);
+.info2i {
+  position: absolute;
+  width: 5vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 5vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  left: 68vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  top: 3.24vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  /* background: url(image.png); */
+  background-size: contain;
+  background-repeat: no-repeat;
 }

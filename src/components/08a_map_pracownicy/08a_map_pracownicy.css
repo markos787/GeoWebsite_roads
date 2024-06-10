@@ -1,224 +1,246 @@
-.a_map_pracownicy {
-
-position: relative;
-width: 1920px;
-height: 1080px;
-
-background: #FFFFFF;
-}
-
-.map {
-
-position: absolute;
-width: 1920px;
-height: 1080px;
-left: 0px;
-top: 0px;
-
-background: url(image);
-}
-
-.navigation_button {
-
-position: absolute;
-width: 43px;
-height: 117px;
-left: 24px;
-top: 28px;
-
-background: url(image.png);
-}
-
-.search {
-
-position: absolute;
-width: 296px;
-height: 53px;
-left: 88px;
-top: 28px;
-
-background: url(image.png);
-}
-
-.button_list_pracownicy {
-
-position: absolute;
-width: 111px;
-height: 103.53px;
-left: 45px;
-top: 951px;
-}
-
-
-.box_list_p {
-
-position: absolute;
-width: 111px;
-height: 103.53px;
-left: 45px;
-top: 951px;
-
-background: #8AB6F6;
-}
-
-.icon_list_p {
-
-position: absolute;
-width: 80.19px;
-height: 72.47px;
-left: 60.4px;
-top: 966.74px;
-
-background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
-}
-
-.button_tiles_pracownicy {
-
-position: absolute;
-width: 111px;
-height: 103.53px;
-left: 179px;
-top: 951px;
-}
-
-
-.box_tiles_p {
-
-position: absolute;
-width: 111px;
-height: 103.53px;
-left: 179px;
-top: 951px;
-
-background: #8AB6F6;
-}
-
-.icon_tiles_p {
-
-position: absolute;
-width: 90.61px;
-height: 77.3px;
-left: 194.86px;
-top: 966.87px;
-
-background: url(image.png);
-}
-
-.layers_management {
-
-position: absolute;
-width: 100px;
-height: 85px;
-left: 1786px;
-top: 28px;
-
-background: url(image.png);
-}
-
-.actions {
-
-position: absolute;
-width: 100px;
-height: 434px;
-left: 1786px;
-top: 124px;
-}
-
-
-.box_actions {
-
-position: absolute;
-width: 100px;
-height: 434px;
-left: 1786px;
-top: 124px;
-
-background: #FFFFFF;
-}
-
-.layers {
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1786px;
-top: 124px;
-
-background: url(layers.png);
-}
-
-.length {
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1786px;
-top: 241px;
-
-background: url(length.png);
-}
-
-.area {
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1786px;
-top: 341px;
-
-background: url(area.png);
-}
-
-.coordinates {
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1786px;
-top: 458px;
-
-background: url(coordinates.png);
-}
-
-.info {
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 1786px;
-top: 944px;
-
-background: url(image.png);
-}
-
-.button_menu {
-
-position: absolute;
-width: 156px;
-height: 156px;
-left: 285px;
-top: 916px;
-}
-
-
-.box_menu {
-
-position: absolute;
-width: 111px;
-height: 103.53px;
-left: 308px;
-top: 942px;
-
-background: #8AB6F6;
-}
-
-.icon_menu {
-
-position: absolute;
-width: 156px;
-height: 156px;
-left: 285px;
-top: 916px;
-
-background: url(image.png);
-}
+.a_map_pracownicy8a {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+  }
+  
+  .navigation_button8a {
+    position: absolute;
+    width: 2.24vw;  /* 43 / 1920 * 100 */
+    height: 10.83vh; /* 117 / 1080 * 100 */
+    left: 1.25vw;   /* 24 / 1920 * 100 */
+    top: 2.59vh;    /* 28 / 1080 * 100 */
+    /* background: url(image.png); */
+  }
+  
+  .button_list_pracownicy8a {
+    position: absolute;
+    width: 5.78vw;   /* 111 / 1920 * 100 */
+    height: 9.59vh;  /* 103.53 / 1080 * 100 */
+    left: 1.72vw;    /* 33 / 1920 * 100 */
+    top: 80vh;    /* 957 / 1080 * 100 */
+    z-index: 1000;
+  }
+  
+  .box_list_r8a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 1.72vw;
+    top: 5vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_list_r8a {
+    position: absolute;
+    width: 3.5vw;  /* 80.19 / 1920 * 100 */
+    height: 6.71vh; /* 72.47 / 1080 * 100 */
+    left: 0.4vw;   /* 48.4 / 1920 * 100 */
+    top: 1.2vh;   /* 972.74 / 1080 * 100 */
+    /* background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview); */
+  }
+  
+  .layers_management8a {
+    position: absolute;
+    width: 5.21vw;  /* 100 / 1920 * 100 */
+    height: 7.87vh; /* 85 / 1080 * 100 */
+    left: 93.44vw;  /* 1794 / 1920 * 100 */
+    top: 3.33vh;    /* 36 / 1080 * 100 */
+    /* background: url(image.png); */
+  }
+  
+  .search8a {
+    position: absolute;
+    width: 15.42vw;  /* 296 / 1920 * 100 */
+    height: 4.91vh;  /* 53 / 1080 * 100 */
+    left: 4.58vw;    /* 88 / 1920 * 100 */
+    top: 2.59vh;     /* 28 / 1080 * 100 */
+    /* background: url(image.png); */
+  }
+  
+  .button_tiles_pracownicy8a {
+    position: absolute;
+    width: 5.78vw;
+    height: 9.59vh;
+    left: -0.5vw;    /* 167 / 1920 * 100 */
+    top: -83.61vh;
+  }
+  
+  .box_tiles_r8a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 8.70vw;
+    top: 88.61vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_tiles_r8a {
+    position: absolute;
+    width: 3.5vw;  /* 90.61 / 1920 * 100 */
+    height: 7.16vh; /* 77.3 / 1080 * 100 */
+    left: 0.4vw;   /* 182.86 / 1920 * 100 */
+    top: 0.9vh;   /* 972.87 / 1080 * 100 */
+    /* background: url(image.png); */
+  }
+  
+  .actions8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 40.19vh; /* 434 / 1080 * 100 */
+    left: -0.5vw;
+    top: 12.22vh;    /* 132 / 1080 * 100 */
+    z-index: 100000;
+  }
+  
+  .box_actions8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 40.19vh;
+    left: 93.44vw;
+    top: 12.22vh;
+    background: #FFFFFF;
+  }
+  
+  .layers8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 9.26vh;  /* 100 / 1080 * 100 */
+    left: 93.44vw;
+    top: 12.22vh;
+    /* background: url(layers.png); */
+  }
+  
+  .length8a {
+    position: absolute;
+    left: 86.5vw;
+    top: -8.3vh;
+    width: 10vw;
+    height: auto;
+    margin-top: 5vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+    z-index: 1000;
+    background-color: #FFFFFF;
+  }
+  
+  .warstwy8a {
+    position: absolute;
+    left: 89vw;
+    top: -1vh;
+    width: 5vw;
+    height: auto;
+    margin-top: 5vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+    z-index: 1000;
+    background-color: #FFFFFF;
+  }
+  
+  .area8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 9.26vh;
+    left: 93.44vw;
+    top: 32.31vh;    /* 349 / 1080 * 100 */
+    /* background: url(area.png); */
+  }
+  
+  .coordinates8a {
+    position: absolute;
+    width: 7vw;
+    height: 8vh;
+    left: 92.8vw;
+    top: 12.15vh;    /* 466 / 1080 * 100 */
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: black;
+  }
+  
+  .info8ai {
+    position: absolute;
+    width: 4.21vw;
+    height: 8.26vh;
+    left: 92vw;  /* 1804 / 1920 * 100 */
+    top: 5.46vh;   /* 923 / 1080 * 100 */
+    /* background: url(image.png); */
+  }
+  
+  .button_menu8a {
+    position: absolute;
+    width: 5.78vw;
+    height: 9.59vh;
+    left: -0.5vw;    /* 167 / 1920 * 100 */
+    top: -83.61vh;
+  }
+  
+  .box_menu8a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 15.42vw;  /* 296 / 1920 * 100 */
+    top: 88.61vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_menu8a {
+    position: absolute;
+    width: 3.5vw;  /* 90.61 / 1920 * 100 */
+    height: 7.16vh; /* 77.3 / 1080 * 100 */
+    left: 0.4vw;   /* 182.86 / 1920 * 100 */
+    top: 0.9vh;   /* 972.87 / 1080 * 100 */
+    /* background: url(image.png); */
+  }
+  
+  .leaflet-container8a {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .map8a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background: url(image); */
+  }
+  
+  .zoom-control8a {
+    position: absolute;
+    top: 2.5vh;
+    left: 11vh;
+    background-color: white;
+    padding: 7px;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+  
+  .zoom-control8a input {
+    margin-right: 0.5vw;
+    padding: 0.1vw;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .zoom-control8a button {
+    padding: 0.5vh 0.7vw;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  

@@ -1,85 +1,70 @@
 .about {
-
-position: relative;
-width: 1920px;
-height: 4096px;
-
-background: #FFFFFF;
-}
-
-.txt_about {
-
-position: absolute;
-width: 413px;
-height: 76px;
-left: 67px;
-top: 128px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 77px;
-text-align: center;
-
-color: #000000;
-}
-
-
-.button_back {
-
-position: absolute;
-width: 353.26px;
-height: 90px;
-left: 1496.74px;
-top: 937px;
-}
-
-
-.box_back {
-
-position: absolute;
-width: 353.26px;
-height: 90px;
-left: 1496.74px;
-top: 937px;
-
-background: #8AB6F6;
-}
-
-.txt_back {
-
-position: absolute;
-width: 351.11px;
-height: 47px;
-left: 1498.89px;
-top: 955px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-
-color: #000000;
-}
-
-
-.txt_body {
-
-position: absolute;
-width: 1774px;
-height: 598px;
-left: 67px;
-top: 287px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-
-color: #000000;
-
-}
+    position: relative;
+    width: 100vw; /* Dostosowane do szerokości okna przeglądarki */
+    min-height: 100vh; /* Minimalna wysokość dostosowana do okna przeglądarki */
+    background: #FFFFFF;
+    overflow: auto;
+    padding: 10vh 5vw;
+    box-sizing: border-box;
+  }
+  
+  .txt_about11 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 5vw;
+    top: 5vh;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 1.2;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .button_back11 {
+    position: absolute;
+    width: 18.4vw;
+    height: 7vh;
+    right: 5vw;
+    bottom: 5vh;
+  }
+  
+  .box_back11 {
+    width: 100%;
+    height: 100%;
+    background: #8AB6F6;
+  }
+  
+  .txt_back11 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .txt_body11 {
+    position: absolute;
+    width: 90vw;
+    left: 5vw;
+    top: 15vh;
+    margin-bottom: 50vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1.2;
+    text-align: justify;
+    color: #000000;
+  }
+  

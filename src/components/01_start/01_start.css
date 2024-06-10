@@ -1,134 +1,112 @@
 .start {
-position: relative;
-width: 1920px;
-height: 1080px;
-
-background: #FFFFFF;
+  position: absolute;
+  width: 80vw; /* Dostosowane do szerokości okna przeglądarki */
+  height: 65vh; /* Dostosowane do wysokości okna przeglądarki */
+  background: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.txt_title {
-
-position: absolute;
-width: 1251px;
-height: 77px;
-left: 357px;
-top: 73px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 77px;
-
-color: #000000;
+.txt_title1 {
+  position: absolute;
+  width: 70vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 6vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -400%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  line-height: 1.2;
+  color: #000000;
 }
 
-
-.txt_explanation {
-
-position: absolute;
-width: 1104px;
-height: 96px;
-left: 408px;
-top: 172px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-
-color: #000000;
+.txt_explanation1 {
+  position: absolute;
+  width: 57vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 9vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -220%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  line-height: 1.2;
+  text-align: center;
+  color: #000000;
 }
 
-
-.button_start {
-
-position: absolute;
-width: 397px;
-height: 93px;
-left: 761px;
-top: 936px;
+.button_start1 {
+  position: absolute;
+  width: 20vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 10vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  left: 38%;
+  top: 85%;
+  transform: translate(-50%, 80%);
 }
-
 
 .box_start {
-
-position: absolute;
-width: 397px;
-height: 93px;
-left: 761px;
-top: 936px;
-
-background: #88E38B;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #88e38b;
 }
 
 .txt_start {
-
-position: absolute;
-width: 268px;
-height: 58px;
-left: 826px;
-top: 954px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-/* identical to box height */
-text-align: center;
-
-color: #000000;
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  left: 15%;
+  top: 10%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  line-height: 1.2;
+  text-align: center;
+  color: #000000;
 }
 
-
-.img {
-
-position: absolute;
-width: 1431px;
-height: 573px;
-left: 244px;
-top: 317px;
-
-background: url(image);
+.img1 {
+  position: absolute;
+  width: 74vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 50vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  /* background: url('image') no-repeat center center; */
+  background-size: cover;
 }
 
-.button_about {
-
-position: absolute;
-width: 298px;
-height: 70px;
-left: 1576px;
-top: 948px;
+.button_about1 {
+  position: absolute;
+  width: 15vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  height: 6vh; /* Proporcjonalne do wysokości okna przeglądarki */
+  left: 80%;
+  top: 90%;
+  transform: translate(-60%, 110%);
 }
-
 
 .box_about {
-
-position: absolute;
-width: 298px;
-height: 70px;
-left: 1576px;
-top: 948px;
-
-background: #88E38B;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #88e38b;
 }
 
-.txt_about {
-
-position: absolute;
-width: 248px;
-height: 48px;
-left: 1601px;
-top: 959px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-
-color: #000000;
+.txt_about1 {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  left: 10%;
+  top: 0%;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2vw; /* Proporcjonalne do szerokości okna przeglądarki */
+  line-height: 1.2;
+  color: #000000;
 }

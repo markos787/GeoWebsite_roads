@@ -34,7 +34,7 @@ height: 53px;
 left: 56px;
 top: 179px;
 
-background: url(image.png);
+/* background: url(image.png); */
 }
 
 .button_map_show {
@@ -77,7 +77,7 @@ color: #000000;
 }
 
 
-.tile1 {
+.tile7 {
 
 position: absolute;
 width: 302px;
@@ -87,7 +87,7 @@ top: 270px;
 }
 
 
-.img1 {
+.img7 {
 
 position: absolute;
 width: 302px;
@@ -95,10 +95,10 @@ height: 317px;
 left: 287px;
 top: 270px;
 
-background: url(image);
+/* background: url(image); */
 }
 
-.mark1 {
+.mark7 {
 
 box-sizing: border-box;
 
@@ -141,7 +141,7 @@ height: 89.06px;
 left: 1510.71px;
 top: 74.46px;
 
-background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png);
+/* background: url(0dcfaeb8efd1b547926fcc14d6dd65e5-removebg-preview.png); */
 }
 
 .button_list_remonty {
@@ -173,7 +173,7 @@ height: 84px;
 left: 1691.79px;
 top: 77.24px;
 
-background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview);
+/* background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview); */
 }
 
 .info {
@@ -184,7 +184,7 @@ height: 100px;
 left: 1806px;
 top: 9px;
 
-background: url(image.png);
+/* background: url(image.png); */
 }
 
 .button_menu {
@@ -216,5 +216,5 @@ height: 182.33px;
 left: 1271px;
 top: 28px;
 
-background: url(image.png);
+/* background: url(image.png); */
 }
