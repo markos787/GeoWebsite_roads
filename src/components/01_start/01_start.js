@@ -9,7 +9,7 @@ function Start() {
       <div className="txt_title1">Geoportal utrudnień w ruchu drogowym</div>
       <div className="txt_explanation1">
         System do informowania o utrudnieniach w ruchu na odcinku drogowym oraz
-        o jego przyczynie
+        o pracownikach remontów drogowych
       </div>
       <img className="img1" src={budowa} alt="img1"></img>
       <div className="button_start1">

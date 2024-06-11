@@ -6,13 +6,13 @@ import "./leaflet-ruler";
 
 export default function LeafletRuler() {
     const map = useMap();
-    const rulerAdded = useRef(false); // Ref to track if the ruler has been added
+    const rulerAdded = useRef(false);
   
     useEffect(() => {
       if (!map || rulerAdded.current) return;
   
       L.control.ruler().addTo(map);
-      rulerAdded.current = true; // Set the ref to true after adding the ruler
+      rulerAdded.current = true;
   
     }, [map]);
   

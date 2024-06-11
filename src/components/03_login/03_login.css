@@ -29,11 +29,20 @@ html {
   text-align: center;
 }
 
-.input_login3,
-.input_password3 {
+.input_login3 {
   box-sizing: border-box;
   width: 20vw;
   height: 6vh;
+  margin-top: 3vh;
+  border: 0.3vh solid #000000;
+}
+
+.input_password3 {
+  position: relative;
+  box-sizing: border-box;
+  width: 20vw;
+  height: 6vh;
+  left: 2vw;
   margin-top: 3vh;
   border: 0.3vh solid #000000;
 }
@@ -59,28 +68,31 @@ html {
 }
 
 .visible3 {
-  position: absolute;
+  position: relative;
   width: 4vw;
   height: 4vh;
-  left: calc(50% + 5.5vw);
-  top: calc(50% + -0.5vh);
-  /* background: url(image); */
+  left: -2.5vw;
+  top: 1.5vh;
 }
 
 .button_login3 {
+  position: relative;
   margin-top: 5vh;
   width: 20vw;
   height: 10vh;
+  left: 2vw;
   background: none;
   border: none;
   cursor: pointer;
 }
 
 .button_back3 {
+  position: relative;
   margin-top: 5vh;
   margin-left: 4vh;
   width: 15vw;
   height: 5vh;
+  left: 2.6vw;
   background: none;
   border: none;
   cursor: pointer;
@@ -124,5 +136,4 @@ html {
   height: 5vw;
   left: 90vw;
   top: 5vh;
-  /* background: url(image.png); */
 }

@@ -40,8 +40,8 @@ function ZoomToFeatureControl({ robotnicy }) {
             if (feature) {
                 console.log("Feature found:", feature);
                 const coordinates = feature.geometry.coordinates;
-                const latlng = [coordinates[1], coordinates[0]]; // Obróć koordynaty: [szerokość, długość]
-                map.setView(latlng, map.getZoom()); // Ustaw centrum mapy na współrzędnych punktu
+                const latlng = [coordinates[1], coordinates[0]];
+                map.setView(latlng, map.getZoom());
             } else {
                 console.log("Feature not found");
             }

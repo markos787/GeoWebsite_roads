@@ -1,7 +1,7 @@
 .about {
     position: relative;
-    width: 100vw; /* Dostosowane do szerokości okna przeglądarki */
-    min-height: 100vh; /* Minimalna wysokość dostosowana do okna przeglądarki */
+    width: 100vw;
+    min-height: 100vh;
     background: #FFFFFF;
     overflow: auto;
     padding: 10vh 5vw;
@@ -28,7 +28,7 @@
     width: 18.4vw;
     height: 7vh;
     right: 5vw;
-    bottom: 5vh;
+    bottom: -25vh;
   }
   
   .box_back11 {

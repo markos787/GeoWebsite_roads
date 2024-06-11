@@ -7,10 +7,10 @@
   
   .button_list_remonty5b {
     position: absolute;
-    width: 5.78vw;   /* 111 / 1920 * 100 */
-    height: 9.59vh;  /* 103.53 / 1080 * 100 */
-    left: 1.72vw;    /* 33 / 1920 * 100 */
-    top: 80vh;    /* 957 / 1080 * 100 */
+    width: 5.78vw;
+    height: 9.59vh;
+    left: 1.72vw;
+    top: 80vh;
     z-index: 1000;
   }
   
@@ -25,27 +25,25 @@
   
   .icon_list_r5b {
     position: absolute;
-    width: 3.5vw;  /* 80.19 / 1920 * 100 */
-    height: 6.71vh; /* 72.47 / 1080 * 100 */
-    left: 0.4vw;   /* 48.4 / 1920 * 100 */
-    top: 1.2vh;   /* 972.74 / 1080 * 100 */
-    /* background: url(png-clipart-computer-icons-big-data-database-big-thumb-miscellaneous-angle-removebg-preview); */
+    width: 3.5vw;
+    height: 6.71vh;
+    left: 0.4vw;
+    top: 1.2vh;
   }
   
   .info5bi {
     position: absolute;
     width: 4.21vw;
     height: 8.26vh;
-    left: 92vw;  /* 1804 / 1920 * 100 */
-    top: 5.46vh;   /* 923 / 1080 * 100 */
-    /* background: url(image.png); */
+    left: 92vw;
+    top: 5.46vh;
   }
   
   .button_menu5b {
     position: absolute;
     width: 5.78vw;
     height: 9.59vh;
-    left: -7.5vw;    /* 167 / 1920 * 100 */
+    left: -7.5vw;
     top: -83.61vh;
   }
   
@@ -53,18 +51,17 @@
     position: absolute;
     width: 4.5vw;
     height: 9.59vh;
-    left: 15.42vw;  /* 296 / 1920 * 100 */
+    left: 15.42vw;
     top: 88.61vh;
     background: #8AB6F6;
   }
   
   .icon_menu5b {
     position: absolute;
-    width: 3.5vw;  /* 90.61 / 1920 * 100 */
-    height: 7.16vh; /* 77.3 / 1080 * 100 */
-    left: 0.4vw;   /* 182.86 / 1920 * 100 */
-    top: 0.9vh;   /* 972.87 / 1080 * 100 */
-    /* background: url(image.png); */
+    width: 3.5vw;
+    height: 7.16vh;
+    left: 0.4vw;
+    top: 0.9vh;
   }
   
   .map5b {
@@ -73,5 +70,4 @@
     height: 100%;
     left: 0;
     top: 0;
-    /* background: url(image); */
   }

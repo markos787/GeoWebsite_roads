@@ -1,7 +1,7 @@
 .a_menu {
     position: relative;
-    width: 100vw; /* Dostosowane do szerokości okna przeglądarki */
-    height: 100vh; /* Dostosowane do wysokości okna przeglądarki */
+    width: 100vw;
+    height: 100vh;
     background: #FFFFFF;
     overflow: hidden;
   }
@@ -173,6 +173,5 @@
     height: auto;
     right: 1.3vw;
     top: 1.7vh;
-    /* background: url(image.png); */
   }
   

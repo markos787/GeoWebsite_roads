@@ -19,7 +19,6 @@ function MeasureControl({ setShowCoordinates }) {
             setShowCoordinates(e.latlng);
         },
     });
-
     return null;
 }
 
@@ -38,7 +37,7 @@ function ZoomToFeatureControl({ remonty }) {
             const feature = remonty.features.find(f => f.id === fullFeatureID);
             if (feature) {
                 console.log("Feature found:", feature);
-                const coordinates = feature.geometry.coordinates[0]; // Assuming the geometry is Polygon or LineString
+                const coordinates = feature.geometry.coordinates[0];
                 const latlngs = coordinates.map(coord => [coord[1], coord[0]]);
                 const bounds = L.latLngBounds(latlngs);
                 map.fitBounds(bounds);

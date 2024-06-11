@@ -9,9 +9,9 @@ import info from "../tmp/info.png";
 function B_list_remonty() {
     const [data, setData] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
-    const [sortBy, setSortBy] = useState(""); // Kolumna do sortowania
-    const [sortOrder, setSortOrder] = useState("asc"); // Kierunek sortowania
-    const [filterValue, setFilterValue] = useState(""); // Wartość do filtrowania
+    const [sortBy, setSortBy] = useState("");
+    const [sortOrder, setSortOrder] = useState("asc");
+    const [filterValue, setFilterValue] = useState("");
 
     useEffect(() => {
         const fetchData = async () => {
@@ -28,7 +28,6 @@ function B_list_remonty() {
     }, []);
 
     useEffect(() => {
-        // Sortowanie danych po wybranej kolumnie i kierunku sortowania
         const sortedData = [...filteredData].sort((a, b) => {
             const aValue = sortBy === "id" ? parseInt(a.id.split('.')[1], 10) : (a.properties[sortBy] || "");
             const bValue = sortBy === "id" ? parseInt(b.id.split('.')[1], 10) : (b.properties[sortBy] || "");
@@ -43,7 +42,6 @@ function B_list_remonty() {
     }, [sortBy, sortOrder, filteredData]);
 
     useEffect(() => {
-        // Filtrowanie danych po wybranej wartości
         const filteredData = data.filter(feature => {
             if (filterValue) {
                 const values = Object.values(feature.properties).map(value => (value || "").toString().toLowerCase());
