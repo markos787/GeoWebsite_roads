@@ -1,0 +1,111 @@
+.start {
+  position: absolute;
+  width: 80vw;
+  height: 65vh;
+  background: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.txt_title1 {
+  position: absolute;
+  width: 70vw;
+  height: 6vh;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -400%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.txt_explanation1 {
+  position: absolute;
+  width: 57vw;
+  height: 9vh;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -220%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 1.2;
+  text-align: center;
+  color: #000000;
+}
+
+.button_start1 {
+  position: absolute;
+  width: 20vw;
+  height: 10vh;
+  left: 38%;
+  top: 85%;
+  transform: translate(-50%, 80%);
+}
+
+.box_start {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #88e38b;
+}
+
+.txt_start {
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  left: 15%;
+  top: 10%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 1.2;
+  text-align: center;
+  color: #000000;
+}
+
+.img1 {
+  position: absolute;
+  width: 74vw;
+  height: 50vh;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  background-size: cover;
+}
+
+.button_about1 {
+  position: absolute;
+  width: 15vw;
+  height: 6vh;
+  left: 80%;
+  top: 90%;
+  transform: translate(-60%, 110%);
+}
+
+.box_about {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #88e38b;
+}
+
+.txt_about1 {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  left: 10%;
+  top: 0%;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 1.2;
+  color: #000000;
+}

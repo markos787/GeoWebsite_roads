@@ -1,0 +1,148 @@
+.a_list_remonty {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.txt_list_remonty6a {
+    position: relative;
+    width: 60vw;
+    height: 7.12vh;
+    left: -5vw;
+    top: -3vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 7.12vh;
+    text-align: center;
+    color: #160808;
+}
+
+.sortuj6a {
+    position: relative;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.filtruj6a {
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.database6a {
+    position: absolute;
+    width: 94.27vw;
+    height: 62.22vh;
+    left: 2.92vw;
+    top: 4.44vh;
+}
+
+.tabela6a {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.tabela6a th, .tabela6a td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabela6a th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.tabela6a tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabela6a tr:hover {
+    background-color: #ddd;
+}
+
+.button_map_remonty6a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 77vw;
+    top: -7vh;
+}
+
+.box_map_r6a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_map_r6a {
+    position: absolute;
+    width: 4.0vw;
+    height: 8.5vh;
+    left: 0.2vw;
+    top: 0.1vh;
+}
+
+.button_tiles_remonty6a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 83.77vw;
+    top: -7vh;
+}
+
+.box_tiles_r6a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_tiles_r6a {
+    position: absolute;
+    width: 4vw;
+    height: 8.5vh;
+    left: 0.1vw;
+    top: 0vh;
+}
+
+.info6ai {
+    position: absolute;
+    width: 3.13vw;
+    height: 5.56vh;
+    left: 90vw;
+    top: 0.83vh;
+}
+
+.button_menu6a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 71.8vw;
+    top: -6.8vh;
+}
+
+.box_menu6a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_menu6a {
+    position: absolute;
+    width: 4vw;
+    height: 9.5vh;
+    left: 0.2vw;
+    top: -0.5vh;
+}

@@ -1,0 +1,236 @@
+.a_map_pracownicy8a {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+  }
+  
+  .navigation_button8a {
+    position: absolute;
+    width: 2.24vw;
+    height: 10.83vh;
+    left: 1.25vw;
+    top: 2.59vh;
+  }
+  
+  .button_list_pracownicy8a {
+    position: absolute;
+    width: 5.78vw;
+    height: 9.59vh;
+    left: 1.72vw;
+    top: 80vh;
+    z-index: 1000;
+  }
+  
+  .box_list_r8a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 1.72vw;
+    top: 5vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_list_r8a {
+    position: absolute;
+    width: 3.5vw;
+    height: 6.71vh;
+    left: 0.4vw;
+    top: 1.2vh;
+  }
+  
+  .layers_management8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 7.87vh;
+    left: 93.44vw;
+    top: 3.33vh;
+  }
+  
+  .search8a {
+    position: absolute;
+    width: 15.42vw;
+    height: 4.91vh;
+    left: 4.58vw;
+    top: 2.59vh;
+  }
+  
+  .button_tiles_pracownicy8a {
+    position: absolute;
+    width: 5.78vw;
+    height: 9.59vh;
+    left: -0.5vw;
+    top: -83.61vh;
+  }
+  
+  .box_tiles_r8a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 8.70vw;
+    top: 88.61vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_tiles_r8a {
+    position: absolute;
+    width: 3.5vw;
+    height: 7.16vh;
+    left: 0.4vw;
+    top: 0.9vh;
+  }
+  
+  .actions8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 40.19vh;
+    left: -0.5vw;
+    top: 12.22vh;
+    z-index: 100000;
+  }
+  
+  .box_actions8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 40.19vh;
+    left: 93.44vw;
+    top: 12.22vh;
+    background: #FFFFFF;
+  }
+  
+  .layers8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 9.26vh;
+    left: 93.44vw;
+    top: 12.22vh;
+  }
+  
+  .length8a {
+    position: absolute;
+    left: 86.5vw;
+    top: -8.3vh;
+    width: 10vw;
+    height: auto;
+    margin-top: 5vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+    z-index: 1000;
+    background-color: #FFFFFF;
+  }
+  
+  .warstwy8a {
+    position: absolute;
+    left: 89vw;
+    top: -1vh;
+    width: 5vw;
+    height: auto;
+    margin-top: 5vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+    z-index: 1000;
+    background-color: #FFFFFF;
+  }
+  
+  .area8a {
+    position: absolute;
+    width: 5.21vw;
+    height: 9.26vh;
+    left: 93.44vw;
+    top: 32.31vh;
+  }
+  
+  .coordinates8a {
+    position: absolute;
+    width: 7vw;
+    height: 8vh;
+    left: 92.8vw;
+    top: 12.15vh;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: black;
+  }
+  
+  .info8ai {
+    position: absolute;
+    width: 4.21vw;
+    height: 8.26vh;
+    left: 92vw;
+    top: 5.46vh;
+  }
+  
+  .button_menu8a {
+    position: absolute;
+    width: 5.78vw;
+    height: 9.59vh;
+    left: -0.5vw;
+    top: -83.61vh;
+  }
+  
+  .box_menu8a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 15.42vw;
+    top: 88.61vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_menu8a {
+    position: absolute;
+    width: 3.5vw;
+    height: 7.16vh;
+    left: 0.4vw;
+    top: 0.9vh;
+  }
+  
+  .leaflet-container8a {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .map8a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .zoom-control8a {
+    position: absolute;
+    top: 2.5vh;
+    left: 11vh;
+    background-color: white;
+    padding: 7px;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+  
+  .zoom-control8a input {
+    margin-right: 0.5vw;
+    padding: 0.1vw;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .zoom-control8a button {
+    padding: 0.5vh 0.7vw;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  

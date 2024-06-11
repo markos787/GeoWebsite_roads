@@ -1,0 +1,123 @@
+.b_list_remonty {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.txt_list_remonty6b {
+    position: relative;
+    width: 60vw;
+    height: 7.12vh;
+    left: -5vw;
+    top: -3vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 7.12vh;
+    text-align: center;
+    color: #160808;
+}
+
+.sortuj6b {
+    position: relative;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.filtruj6b {
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.database6b {
+    position: absolute;
+    width: 94.27vw;
+    height: 62.22vh;
+    left: 2.92vw;
+    top: 4.44vh;
+}
+
+.tabela6b {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.tabela6b th, .tabela6b td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabela6b th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.tabela6b tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabela6b tr:hover {
+    background-color: #ddd;
+}
+
+.button_map_remonty6b {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 82vw;
+    top: -7vh;
+}
+
+.box_map_r6b {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_map_r6b {
+    position: absolute;
+    width: 4.0vw;
+    height: 8.5vh;
+    left: 0.2vw;
+    top: 0.1vh;
+}
+
+.info6bi {
+    position: absolute;
+    width: 3.13vw;
+    height: 5.56vh;
+    left: 90vw;
+    top: 0.83vh;
+}
+
+.button_menu6b {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 76.8vw;
+    top: -6.8vh;
+}
+
+.box_menu6b {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_menu6b {
+    position: absolute;
+    width: 4vw;
+    height: 9.5vh;
+    left: 0.2vw;
+    top: -0.5vh;
+}

@@ -1,0 +1,196 @@
+.tiles_pracownicy_one {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    background: #FFFFFF;
+}
+
+.txt_tiles_pracownicy10a1 {
+    position: absolute;
+    width: 67vw;
+    height: 7vh;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -4vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4vw;
+    line-height: 7vh;
+    text-align: center;
+    color: #000000;
+}
+
+
+.button_back10a1 {
+    position: absolute;
+    width: 10vw;
+    height: 7vh;
+    left: -7vw;
+    top: -2vh;
+}
+
+.box_back10a1 {
+    position: absolute;
+    width: 10vw;
+    height: 7vh;
+    left: 47vw;
+    top: 85vh;
+    background: #8AB6F6;
+}
+
+.txt_back10a1 {
+    position: absolute;
+    width: 9vw;
+    height: 4vh;
+    left: 0.5vw;
+    top: 0.5vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 4.8vh;
+    text-align: center;
+    color: #000000;
+}
+
+
+.button_map_pracownicy10a1 {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 77.83vw;
+    top: 6vh;
+}
+
+.box_map_r10a1 {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 16.94vh;
+    background: #8AB6F6;
+}
+
+.icon_map_r10a1 {
+    position: absolute;
+    width: 4vw;
+    height: 8.5vh;
+    left: 0.1vw;
+    top: 0.1vh;
+
+}
+
+.button_list_pracownicy10a1 {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 77.83vw;
+    top: 11vh;
+}
+
+.box_list_r10a1 {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 30.94vh;
+    background: #8AB6F6;
+}
+
+.icon_list_r10a1 {
+    position: absolute;
+    width: 4vw;
+    height: 8.5vh;
+    left: 0.1vw;
+    top: 0.1vh;
+
+}
+
+.txt_attributes10a1 {
+    position: absolute;
+    width: 17.65vw;
+    height: 33.8vh;
+    left: 40vw;
+    top: 32vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 2.79vh;
+    text-align: right;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vh;
+}
+
+.txt_values10a1 {
+    position: absolute;
+    width: 17.57vw;
+    height: 33.8vh;
+    left: 59.12vw;
+    top: 32.3vh;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.22vh;
+    line-height: 2.79vh;
+    text-align: left;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vh;
+}
+
+.face10a1 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 53vw;
+    top: 12vh;
+}
+
+.map10a1 {
+    position: absolute;
+    width: 35vw;
+    height: 60vh;
+    left: 1vw;
+    top: 17vh;
+
+}
+
+.info10a1i {
+    position: absolute;
+    width: 4.2vw;
+    height: 9.26vh;
+    left: 88vw;
+    top: 1.85vh;
+
+}
+
+.button_menu10a1 {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 77.83vw;
+    top: -6vh;
+}
+
+.box_menu10a1 {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 68.5vh;
+    background: #8AB6F6;
+}
+
+.icon_menu10a1 {
+    position: absolute;
+    width: 4vw;
+    height: 8.5vh;
+    left: 0.1vw;
+    top: -0.1vh;
+
+}

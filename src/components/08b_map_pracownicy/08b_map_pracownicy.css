@@ -1,0 +1,73 @@
+.a_map_pracownicy8b {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+  }
+  
+  .button_list_pracownicy8b {
+    position: absolute;
+    width: 5.78vw;
+    height: 9.59vh;
+    left: 1.72vw;
+    top: 80vh;
+    z-index: 1000;
+  }
+  
+  .box_list_r8b {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 1.72vw;
+    top: 5vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_list_r8b {
+    position: absolute;
+    width: 3.5vw;
+    height: 6.71vh;
+    left: 0.4vw;
+    top: 1.2vh;
+  }
+  
+  .info8bi {
+    position: absolute;
+    width: 4.21vw;
+    height: 8.26vh;
+    left: 92vw;
+    top: 5.46vh;
+  }
+  
+  .button_menu8b {
+    position: absolute;
+    width: 5.78vw;
+    height: 9.59vh;
+    left: -7.5vw;
+    top: -83.61vh;
+  }
+  
+  .box_menu8b {
+    position: absolute;
+    width: 4.5vw;
+    height: 9.59vh;
+    left: 15.42vw;
+    top: 88.61vh;
+    background: #8AB6F6;
+  }
+  
+  .icon_menu8b {
+    position: absolute;
+    width: 3.5vw;
+    height: 7.16vh;
+    left: 0.4vw;
+    top: 0.9vh;
+  }
+  
+  .map8b {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }

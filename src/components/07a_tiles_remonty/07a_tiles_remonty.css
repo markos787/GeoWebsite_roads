@@ -1,0 +1,162 @@
+.tiles_remonty {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tiles7a {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 30vh;
+  align-items: center;
+}
+
+.tiles7a :hover {
+  background-color: #f0f0f0;
+}
+
+.tile7a {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.tile-name7a {
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  font-size: 1.5vw;
+}
+
+.tile-odc7a {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.tile-odc7a td {
+  margin-top: 15px;
+}
+
+.tile_image7a {
+  position: relative;
+  width: 13vh;
+  height: 13vh;
+}
+
+.filter7a {
+  position: relative;
+  top: 23vh;
+}
+
+.txt_filter7a {
+  position: absolute;
+  left: 41vw;
+  font-weight: 600;
+}
+
+.txt_tiles_remonty7a {
+    position: absolute;
+    width: 70vw;
+    height: 7.12vh;
+    left: 1vw;
+    top: 1vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 7.12vh;
+    text-align: center;
+    color: #160808;
+}
+
+.button_map_remonty7a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 82vw;
+    top: -2vh;
+}
+
+.box_map_r7a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_map_r7a {
+    position: absolute;
+    width: 4.0vw;
+    height: 8.5vh;
+    left: 0.2vw;
+    top: 0.1vh;
+}
+
+.button_list_remonty7a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 88.77vw;
+    top: -2vh;
+}
+
+.box_list_r7a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_list_r7a {
+    position: absolute;
+    width: 4vw;
+    height: 8.5vh;
+    left: 0.1vw;
+    top: 0vh;
+}
+
+.info7ai {
+    position: absolute;
+    width: 3.13vw;
+    height: 5.56vh;
+    left: 95vw;
+    top: 6vh;
+}
+
+.button_menu7a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 76.8vw;
+    top: -2vh;
+}
+
+.box_menu7a {
+    position: absolute;
+    width: 4.5vw;
+    height: 9vh;
+    left: 0.1vw;
+    top: 6.48vh;
+    background: #8AB6F6;
+}
+
+.icon_menu7a {
+    position: absolute;
+    width: 4vw;
+    height: 9.5vh;
+    left: 0.2vw;
+    top: -0.5vh;
+}

@@ -1,0 +1,70 @@
+.about {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background: #FFFFFF;
+    overflow: auto;
+    padding: 10vh 5vw;
+    box-sizing: border-box;
+  }
+  
+  .txt_about11 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 5vw;
+    top: 5vh;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 1.2;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .button_back11 {
+    position: absolute;
+    width: 18.4vw;
+    height: 7vh;
+    right: 5vw;
+    bottom: -25vh;
+  }
+  
+  .box_back11 {
+    width: 100%;
+    height: 100%;
+    background: #8AB6F6;
+  }
+  
+  .txt_back11 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .txt_body11 {
+    position: absolute;
+    width: 90vw;
+    left: 5vw;
+    top: 15vh;
+    margin-bottom: 50vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1.2;
+    text-align: justify;
+    color: #000000;
+  }
+  
