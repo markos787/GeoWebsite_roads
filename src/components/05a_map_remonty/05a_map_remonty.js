@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { LayersControl, MapContainer, TileLayer, GeoJSON, useMapEvents, useMap } from "react-leaflet";
+import React, { useState, useEffect, useRef } from "react";
+import { LayersControl, MapContainer, TileLayer, GeoJSON, useMapEvents, useMap, useMapEvent } from "react-leaflet";
 import { Link } from "react-router-dom";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -12,6 +12,7 @@ import b_db from "../tmp/b_db.png";
 import b_kafle from "../tmp/b_kafle.png";
 import b_menu from "../tmp/b_lista.png";
 import info from "../tmp/info.png";
+import ikona_m from "../tmp/ikona-m.png";
 
 function MeasureControl({ setShowCoordinates }) {
     useMapEvents({
@@ -33,16 +34,12 @@ function ZoomToFeatureControl({ remonty }) {
     const handleZoomToFeature = () => {
         if (remonty) {
             const fullFeatureID = `remonty.${featureID}`;
-            console.log("Searching for feature with ID:", fullFeatureID);
             const feature = remonty.features.find(f => f.id === fullFeatureID);
             if (feature) {
-                console.log("Feature found:", feature);
                 const coordinates = feature.geometry.coordinates[0];
                 const latlngs = coordinates.map(coord => [coord[1], coord[0]]);
                 const bounds = L.latLngBounds(latlngs);
                 map.fitBounds(bounds);
-            } else {
-                console.log("Feature not found");
             }
         }
     };
@@ -60,33 +57,120 @@ function ZoomToFeatureControl({ remonty }) {
     );
 }
 
+let DefaultIcon = L.icon({
+    iconUrl: ikona_m,
+    iconSize: [20,32],
+    iconAnchor: [16,32]
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
+
 function A_map_remonty() {
     const [showCoordinates, setShowCoordinates] = useState(null);
-    const [remonty, setremonty] = useState(null);
+    const [remonty, setRemonty] = useState(null);
 
     const makePopup = (feature, layer) => {
         if (feature.properties) {
             layer.bindPopup(`
-            <h2>Dane remontowanego odcinka</h2>
-            <strong>Odcinek początkowy: </strong>${feature.properties.odc_start} </br>
-            <strong>Odcinek końcowy: </strong>${feature.properties.odc_koniec} </br>
+                <h2>Dane remontowanego odcinka</h2>
+                <strong>Odcinek początkowy: </strong>${feature.properties.odc_start} </br>
+                <strong>Odcinek końcowy: </strong>${feature.properties.odc_koniec} </br>
             `);
         }
     };
 
     useEffect(() => {
         const getData = () => {
-            axios
-                .get(
-                    "http://localhost:9090/geoserver/prge/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=prge%3Aremonty&maxFeatures=50&outputFormat=application%2Fjson"
-                )
+            axios.get("http://localhost:9090/geoserver/prge/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=prge%3Aremonty&maxFeatures=50&outputFormat=application%2Fjson")
                 .then((dane) => {
-                    setremonty(dane.data);
-                    console.log("Received GeoJSON data:", dane.data);
+                    setRemonty(dane.data);
                 });
         };
         getData();
     }, []);
+
+    const geoserverUrl = "http://localhost:9090/geoserver"; // Ustaw adres swojego GeoServera
+
+    const AddMarkersToMap = () => {
+        const map = useMap();
+        const [source, setSource] = useState(null);
+        const [target, setTarget] = useState(null);
+        const [pathLayer, setPathLayer] = useState(null);
+
+        // Funkcja do pobierania najbliższego wierzchołka
+        const getVertex = (selectedPoint, markerType) => {
+            const url = `${geoserverUrl}/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=prge:nearest_vertex&outputformat=application/json&viewparams=x:${selectedPoint.lng};y:${selectedPoint.lat};`;
+            axios.get(url)
+                .then(response => {
+                    const features = response.data.features;
+    
+                    if (features.length > 0) {
+                        const vertexId = features[0].properties.id;
+                        if (markerType === 'source') {
+                            setSource(vertexId);
+                        } else {
+                            setTarget(vertexId);
+                        }
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching vertex:', error);
+                });
+        };
+    
+        const getRoute = () => {
+            if (source && target) {
+                const url = `${geoserverUrl}/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=prge:shortest_path&outputformat=application/json&viewparams=source:${source};target:${target};`;
+                axios.get(url)
+                    .then(response => {
+                        const data = response.data;
+
+                        if (pathLayer) {
+                            map.removeLayer(pathLayer);
+                        }
+                        const newPathLayer = L.geoJSON(data).addTo(map);
+                        setPathLayer(newPathLayer);
+                    })
+                    .catch(error => {
+                        console.error('Error fetching route:', error);
+                    });
+            }
+        };
+    
+        const sourceMarker = L.marker([52.235, 21.005], {
+            draggable: true,
+            autoPan: true
+        }).addTo(map);
+    
+        const targetMarker = L.marker([52.23, 21.01], {
+            draggable: true,
+            autoPan: true
+        }).addTo(map);
+    
+        const handleMarkerDrag = (marker, markerType) => {
+            marker.on("dragend", (e) => {
+                const selectedPoint = e.target.getLatLng();
+                getVertex(selectedPoint, markerType);
+                getRoute();
+            });
+        };
+    
+        handleMarkerDrag(sourceMarker, 'source');
+        handleMarkerDrag(targetMarker, 'target');
+    
+        useEffect(() => {
+            getVertex(sourceMarker.getLatLng(), 'source');
+            getVertex(targetMarker.getLatLng(), 'target');
+            getRoute();
+    
+            return () => {
+                sourceMarker.off("dragend");
+                targetMarker.off("dragend");
+            };
+        }, [map]);
+    
+        return null;
+    };
 
     return (
         <div className="a_map_remonty">
@@ -145,14 +229,13 @@ function A_map_remonty() {
                     <LayersControl.Overlay checked name="Remontowane odcinki">
                         {remonty ? (
                             <GeoJSON data={remonty} onEachFeature={makePopup} />
-                        ) : (
-                            ""
-                        )}
+                        ) : null}
                     </LayersControl.Overlay>
                 </LayersControl>
                 <MeasureControl setShowCoordinates={setShowCoordinates} />
-                <LeafletRuler />
                 <ZoomToFeatureControl remonty={remonty} />
+                <AddMarkersToMap />
+                <LeafletRuler />
             </MapContainer>
         </div>
     );

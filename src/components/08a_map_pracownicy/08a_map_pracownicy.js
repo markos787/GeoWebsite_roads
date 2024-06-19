@@ -13,6 +13,7 @@ import b_kafle from "../tmp/b_kafle.png";
 import b_menu from "../tmp/b_lista.png";
 import info from "../tmp/info.png";
 import ikona from "../tmp/ikona.png";
+import ikona_m from "../tmp/ikona-m.png";
 
 function MeasureControl({ setShowCoordinates }) {
     useMapEvents({
@@ -60,6 +61,97 @@ function ZoomToFeatureControl({ robotnicy }) {
         </div>
     );
 }
+
+const geoserverUrl = "http://localhost:9090/geoserver"; // Ustaw adres swojego GeoServera
+
+const AddMarkersToMap = () => {
+    const map = useMap();
+    const [source, setSource] = useState(null);
+    const [target, setTarget] = useState(null);
+    const [pathLayer, setPathLayer] = useState(null);
+
+    let DefaultIcon = L.icon({
+        iconUrl: ikona_m,
+        iconSize: [20,32],
+        iconAnchor: [16,32]
+    });
+    
+    L.Marker.prototype.options.icon = DefaultIcon;
+
+    // Funkcja do pobierania najbliższego wierzchołka
+    const getVertex = (selectedPoint, markerType) => {
+        const url = `${geoserverUrl}/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=prge:nearest_vertex&outputformat=application/json&viewparams=x:${selectedPoint.lng};y:${selectedPoint.lat};`;
+        axios.get(url)
+            .then(response => {
+                const features = response.data.features;
+
+                if (features.length > 0) {
+                    const vertexId = features[0].properties.id;
+                    if (markerType === 'source') {
+                        setSource(vertexId);
+                    } else {
+                        setTarget(vertexId);
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching vertex:', error);
+            });
+    };
+
+    const getRoute = () => {
+        if (source && target) {
+            const url = `${geoserverUrl}/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=prge:shortest_path&outputformat=application/json&viewparams=source:${source};target:${target};`;
+            axios.get(url)
+                .then(response => {
+                    const data = response.data;
+
+                    if (pathLayer) {
+                        map.removeLayer(pathLayer);
+                    }
+                    const newPathLayer = L.geoJSON(data).addTo(map);
+                    setPathLayer(newPathLayer);
+                })
+                .catch(error => {
+                    console.error('Error fetching route:', error);
+                });
+        }
+    };
+
+    const sourceMarker = L.marker([52.235, 21.005], {
+        draggable: true,
+        autoPan: true
+    }).addTo(map);
+
+    const targetMarker = L.marker([52.23, 21.01], {
+        draggable: true,
+        autoPan: true
+    }).addTo(map);
+
+    const handleMarkerDrag = (marker, markerType) => {
+        marker.on("dragend", (e) => {
+            const selectedPoint = e.target.getLatLng();
+            getVertex(selectedPoint, markerType);
+            getRoute();
+        });
+    };
+
+    handleMarkerDrag(sourceMarker, 'source');
+    handleMarkerDrag(targetMarker, 'target');
+
+    useEffect(() => {
+        getVertex(sourceMarker.getLatLng(), 'source');
+        getVertex(targetMarker.getLatLng(), 'target');
+        getRoute();
+
+        return () => {
+            sourceMarker.off("dragend");
+            targetMarker.off("dragend");
+        };
+    }, [map]);
+
+    return null;
+};
 
 function A_map_pracownicy() {
     const [showCoordinates, setShowCoordinates] = useState(null);
@@ -164,6 +256,7 @@ function A_map_pracownicy() {
                     </LayersControl.Overlay>
                 </LayersControl>
                 <MeasureControl setShowCoordinates={setShowCoordinates} />
+                <AddMarkersToMap />
                 <LeafletRuler />
                 <ZoomToFeatureControl robotnicy={robotnicy} />
             </MapContainer>
